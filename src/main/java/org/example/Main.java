@@ -47,7 +47,7 @@ class PhoneManager {
             }
         });
     }
-    // sort using lambda expression
+    // sort using Java 8 lambda expressions
     public void sortPhonesByBrand(){
         Collections.sort(phones,(p1,p2) ->{
             return p1.brand.compareTo(p2.brand);
